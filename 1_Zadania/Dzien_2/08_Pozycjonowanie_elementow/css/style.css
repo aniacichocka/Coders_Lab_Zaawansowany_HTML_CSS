@@ -1,0 +1,216 @@
+/*Zadanie z wykładowcą*/
+
+.green-square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+}
+
+.parent {
+  width: 800px;
+  border: 1px solid red;
+}
+
+.green-square.left {
+  float: left;
+}
+
+.green-square.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/*Zadania do samodzielnego wykonania*/
+
+/*Zadanie 1*/
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display:block;
+  clear:both;
+}
+
+
+ul li {
+  margin-right: 20px;
+  float:left;
+}
+
+
+/*Zadanie 2*/
+
+img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  float:left;
+}
+
+.ex2 p {
+  float:left;
+  width: 1000px;
+}
+
+
+/*Zadanie 3*/
+
+.text {
+  border: 1px solid blue;
+  width:700px;
+  padding: 20px 20px;
+  position: relative;
+}
+
+.second {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  float:right;
+  position:absolute;
+  right: -20px;
+  bottom: -20px;
+}
+
+
+/*Zadanie 4*/
+
+.ex4 {
+  width: 100px;
+  height: 100px;
+  clear: both;
+  position: relative;
+  margin-bottom: 100px;
+}
+.one {
+  z-index: 1;
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+}
+
+.two {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: -7px;
+
+}
+
+
+/*Zadanie 5*/
+
+.ex5 {
+  width: 230px;
+  height: 260px;
+  border: 3px solid black;
+  font-family: "Calibri", sans-serif;
+  position: relative;
+}
+
+h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 50px 50px 0 60px;
+}
+
+.ex5 p {
+  font-size: 12px;
+  text-align: center;
+  margin: 30px 10px 37px 10px;
+}
+
+a {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 8px 20px 10px 20px;
+  margin: 0 45px;
+}
+
+.circle {
+  height: 65px;
+  width:65px;
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  right: 80px;
+  top: -38px;
+}
+
+.disc {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  right: 100px;
+  top: -17px;
+}
+
+
+/*Zadanie 6*/
+
+.ex6 {
+  hight: 800px;
+  width: 800px;
+  margin-top: 100px;
+}
+.object {
+  width: 230px;
+  height: 260px;
+  border: 3px solid black;
+  font-family: "Calibri", sans-serif;
+  position: relative;
+  float:left;
+}
+
+h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 50px 50px 0 60px;
+}
+
+.object p {
+  font-size: 12px;
+  text-align: center;
+  margin: 30px 10px 37px 10px;
+}
+
+a {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 8px 20px 10px 20px;
+  margin: 0 45px;
+}
+
+.circle {
+  height: 65px;
+  width:65px;
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  right: 80px;
+  top: -38px;
+}
+
+.disc {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  right: 100px;
+  top: -17px;
+}

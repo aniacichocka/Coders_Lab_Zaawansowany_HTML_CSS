@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  /*border: 1px solid red;*/
+}
+
+.row::after,
+.row::before,
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+}
+
+
+/*header*/
+
+.site-header {
+  background-color: #36ebe0;
+}
+
+.menu {
+  background-color: white;
+}
+
+.column.first,
+.column.third {
+  width: 25%;
+}
+
+.column.second {
+  width: 50%;
+}
+
+.site-header .logo {
+  margin: 20px 0 10px 25px;
+  height: 80px;
+}
+
+.second p {
+  color: white;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 30px 0 30px 70px;
+}
+
+.third li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.third li a {
+text-decoration: none;
+color: white;
+}
+
+.lang {
+  margin: 50px 0 20px 120px;
+}
+
+.menu li {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 80px;
+}
+
+
+/*section main*/
+
+.site-main {
+  background-color: #f3f3f3;
+}
+
+.text {
+  background-color: white;
+}
+
+.text .column{
+   width: 50%;
+   padding: 20px 35px 30px 35px;
+ }
+
+.text h1 {
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 18px;
+ }
+
+.text p {
+   font-size: 13px;
+ }
+
+.photo {
+  background-image:url("images/safer-slide-3.png");
+  height: 428px;
+}
+
+.sentence {
+  font-size: 45px;
+  text-align: center;
+  margin: 120px 0 70px 60px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-text a {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #36ebe0;
+  text-align: center;
+  padding: 20px 80px;
+  margin-left: 65px;
+}
+
+/*footer*/
+
+.site-footer {
+  background-color: #36ebe0;
+}
+
+.copyrights {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.email a {
+  color: white;
+  text-decoration: none;
+  margin-left: 750px;
+  margin-top: 20px;
+}
+
+.email {
+  padding-top: 10px;
+}

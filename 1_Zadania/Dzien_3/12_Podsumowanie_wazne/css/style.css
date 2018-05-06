@@ -1,0 +1,125 @@
+/*Zadanie z wykładowcą*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 10px auto;
+  border: 1px solid red;
+}
+
+.row::after,
+.row::before,
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*aby rodzic przejął margines pierwszego dziecka*/
+
+.column {
+  float: left;
+}
+
+/*Header*/
+
+.site-header {
+  background-color: black;
+}
+
+.header-logo {
+  height: 50px;
+  display: block;
+}
+
+.layout-2-col .column {
+  width: 50%;
+}
+
+.layout-3-col .column {
+  width: 33.33%;
+}
+
+.site-header a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-menu {
+  text-align: right;
+}
+
+.site-menu li {
+  display: inline-block;
+  margin: 0 7px;
+}
+
+.site-menu li:last-child {
+  margin-right: 0;
+}
+
+/*Hero*/
+
+h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+p {
+  line-height: 1.4;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero-section .row {
+  padding: 20px 0;
+}
+
+.hero-section .column:first-child {
+  padding-right: 40px;
+}
+
+/*Gallery*/
+
+.gallery-section {
+  background-color: #000;
+}
+
+.gallery-section .row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+/*rozwiązuje problem odstępów między kolumnami - aby usunąć prawy i lewy margines przy dzieciach, powiększamy rodzica*/
+
+.gallery-section .column {
+  padding: 10px 5px;
+}
+
+.gallery-section img {
+  display: block;
+}
+
+/*Footer*/
+
+.site-footer .column:last-child {
+  text-align: right;
+}
+
+.footer-logo {
+  height: 40px;
+}
+
+.copyrights-footer {
+  padding-top: 12px;
+}

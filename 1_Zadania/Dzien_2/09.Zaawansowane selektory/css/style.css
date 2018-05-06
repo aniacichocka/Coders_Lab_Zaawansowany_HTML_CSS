@@ -1,0 +1,136 @@
+/*Zadania z wykładowcą*/
+
+.some-div {
+  width:400px;
+  height: 300px
+}
+
+.some-div:hover {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.some-div:active {
+  background-color: white;
+  box-shadow: 0 0 10px blue;
+}
+
+
+/*Zadania do samodzielnego wykonania*/
+
+/*Zadanie 1*/
+
+li {
+list-style-type: none;
+margin-bottom: 20px;
+}
+
+a {
+  background-color: yellow;
+  border-radius: 20%;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: grey;
+}
+
+a:hover {
+  background-color: green;
+}
+
+/*zamiana miejscami - musi być zachowana zasada love and hate aby odwiedzony link zmienił się w tym przypadku na szary*/
+
+
+/*Zadanie 2*/
+
+#navigation li {
+  width: 75px;
+  background-color: pink;
+  display: inline-block;
+}
+
+#navigation li:first-child {
+  border-radius: 20px 0 0 20px;
+}
+
+#navigation li:last-child {
+  border-radius: 0 20px 20px 0;
+}
+
+#zebra p:nth-child(odd) {
+  background-color: grey;
+}
+
+#other div:first-child {
+  color: green;
+}
+
+#other div:last-child {
+  color: blue;
+}
+
+#from_end div:nth-last-child(2n+3) {
+  background-color: orange;
+}
+
+
+/*Zadanie 3*/
+
+.ex3 {
+  width: 500px;
+  height: 200px;
+  position: relative;
+  margin-top: 20px;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+.avatar {
+  margin-right: 20px;
+}
+
+.ex3 p {
+  box-shadow: 1px 1px 8px 1px lightgrey;
+  border-radius: 10px;
+  width: 350px;
+  padding: 10px;
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  right: 60px;
+}
+
+
+/*Zadanie 4*/
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 20px 30px;
+}
+
+th {
+  background-color: navy;
+  color: white;
+  font-weight: 700;
+}
+
+tr:nth-child(2n+3) {
+  background-color: #87ceff;
+}
+
+tr:nth-child(2n+2) {
+  background-color: blue;
+}
+
+td:hover {
+  color: red;
+}

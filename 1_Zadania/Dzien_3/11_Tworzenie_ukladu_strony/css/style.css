@@ -1,0 +1,70 @@
+/*Zadanie  wykładowcą*/
+
+/*layout*/
+body {
+  font-family: arial, sans-serif;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  /*border: 1px solid red;*/
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.column {
+  float: left;
+}
+
+/*Header & Footer*/
+
+.site-header {
+  background-image: url(../images/night-sky.jpg);
+  color: #fff;
+  background-size: cover;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.site-footer {
+  background-color: navy;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Main*/
+
+.site-main {
+  padding: 20px 0 5px;
+}
+
+.special-offer {
+  margin-bottom: 5px;
+}
+
+.special-offer .column {
+  width: 33.33%;
+  background-color: lightblue;
+}
+
+.regular-offer .column {
+  width: 50%;
+  background-color: blue;
+  color: #fff;
+}
+
+.column {
+  padding: 5px 0;
+}

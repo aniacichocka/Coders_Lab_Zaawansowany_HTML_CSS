@@ -1,0 +1,43 @@
+/*Zadanie z wykładowcą i Zadanie 4*/
+
+p {
+  font-size: 12px !important;
+}
+
+p {
+  font-size: 40px;
+}
+
+
+/*Zadanie 1*/
+
+.first {
+  font-size: 20px;
+}
+
+.second {
+  font-size: 10px;
+}
+
+/*Zadanie 2*/
+
+p.ex2, span {
+  background-color: yellow;
+}
+
+
+/*Zadanie 3*/
+
+#identyfikator {
+  background-color: red;
+}
+
+div {
+  background-color: blue;
+}
+
+.klasa {
+  background-color: green;
+}
+
+/*Tło czerwone, element id ma największą moc*/

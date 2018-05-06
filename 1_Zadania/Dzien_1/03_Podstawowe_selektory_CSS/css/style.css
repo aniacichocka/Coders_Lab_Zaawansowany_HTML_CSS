@@ -1,0 +1,73 @@
+/*Zadanie z wykładowcą*/
+
+/*p {
+  background-color: red;
+}
+
+#inny {
+  background-color: blue;
+}
+
+.blog {
+  background-color: #ffe28a;
+}
+
+.blog p {
+  background-color: pink;
+}
+
+#rodzic p {
+  background-color: orange;
+}
+
+#rodzic > p {
+  background-color: green;
+}
+
+#other + p {
+  background-color: brown;
+}
+
+#inny + p {
+  background-color: #800080;
+}*/
+
+
+/*Zadanie 1 - do samodzielnego wykonania*/
+
+/*h1, h2, h3, h4, h5 {
+  background-color: green;
+}
+
+.black,
+.white {
+  background-color: grey;
+}
+
+div.important {
+  background-color: #8ec127;
+}
+
+.white,
+.white .important {
+  background-color: blue;
+}*/
+
+
+/*Zadanie 2 - do samodzielnego wykonania*/
+
+[type="submit"] {
+  background-color: blue;
+}
+
+[type*="email"] {
+  background-color: green;
+}
+
+[class*="main-width"] {
+  background-color: red;
+}
+
+[class^="main-width"] {
+  background-color: pink;
+}

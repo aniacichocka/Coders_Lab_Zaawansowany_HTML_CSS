@@ -1,0 +1,39 @@
+/*Zadanie z wykładowcą i do samodzielnego wykonania*/
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.2em;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+  height: 10em;
+}
+
+input:focus, textarea:focus, button:focus {
+  outline-color: #222;
+}
+
+.form.group {
+  margin-bottom: 1em;
+}
+
+[type="submit"] {
+  background-color: #2AD775;
+}
+
+[type="submit"]:hover {
+  background-color: #17EA22;
+}

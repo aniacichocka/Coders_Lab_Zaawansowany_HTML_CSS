@@ -1,0 +1,64 @@
+/*Zadanie z wykładowcą*/
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Regular.eot');
+	src: local('Lato Regular'), local('Lato-Regular'),
+		url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lato-Regular.woff') format('woff'),
+		url('../fonts/Lato-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Bold.eot');
+	src: local('../fonts/Lato Bold'), local('Lato-Bold'),
+		url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lato-Bold.woff') format('woff'),
+		url('../fonts/Lato-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*Zadanie 1*/
+
+@font-face {
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald-Medium.eot');
+	src: local('../fonts/Oswald-Medium'), local('Oswald-Medium'),
+		url('../fonts/Oswald-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Oswald-Medium.woff') format('woff'),
+		url('../fonts/v.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/*Zadanie 2*/
+/*Czcionka Josefin-Sans*/
+
+/*Zadanie 3*/
+
+@font-face {
+	font-family: 'Rubik';
+	src: url('../fonts/rubik-regular.eot');
+	src: local('../fonts/rubik-regular'), local('rubik-regular'),
+		url('../fonts/rubik-regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/rubik-regular.woff') format('woff'),
+		url('../fonts/rubik-regular.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+span {
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}

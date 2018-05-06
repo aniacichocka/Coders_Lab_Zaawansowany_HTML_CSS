@@ -1,0 +1,24 @@
+/*Zadanie z wykładowcą*/
+
+.container {
+  width: 400px;
+  border: 2px solid blue;
+}
+.one {
+  width: 350px;
+  border: 1px solid red;
+  padding-left: 140px;
+  /* W domyślnym modelu pudełkowym całkowite szerokość diva wynosi 350 + 140 = 490px (czyli więcej niż szerokość rodzica 400px) */
+
+  box-sizing: border-box;
+  /*po zmmanie modelu pudełkowego na border-box całkowita szerokość diva wynosi 350px*/
+}
+
+
+/*Zadanie 1*/
+
+/*box-sizing - możemy ustalać jak wyliczana jest wysokość i szerokość danego elementu
+
+margin - zewnętrzny margines/margines jednego elementu od danego elementu
+
+padding - wewnętrzny margines/ przestrzeń od zawartości elelmentu do jego obramowania*/
